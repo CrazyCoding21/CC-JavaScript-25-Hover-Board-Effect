@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: #414141;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+    cursor: pointer;
+}
+.box{
+    background-color: #1d1d1d;
+    box-shadow: 0 0 2px #000;
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+    transition: 1.5s ease;
+}
+.box:hover{
+    transition-duration: 0s;
+}
